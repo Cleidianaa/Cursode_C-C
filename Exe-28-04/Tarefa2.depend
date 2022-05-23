@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1651143962 source:c:\users\pc multimedia\onedrive - instituto do emprego e formação profissional\cleidiana - curso iefp\modulo-c\tarefa2\main.c
+	<stdlib.h>
+	<stdio.h>
+	<locale.h>
+
