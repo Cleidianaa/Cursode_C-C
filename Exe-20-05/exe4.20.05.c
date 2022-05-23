@@ -6,9 +6,9 @@ Exercício 4
 Elaborar um programa que recebe 3 valores inteiros. Mostra o maior, o menor e a média.
 */
 
-int main (){
+int main(){
     setlocale (LC_ALL, "Portuguese");
-    int num1, num2, num3, menor, maior;
+    int num1, num2, num3, menor, maior, media;
 
     printf(" Digite um valor: \n");
     scanf("%d", &num1);
@@ -16,6 +16,8 @@ int main (){
     scanf("%d", &num2);
     printf(" Digite  o terceiro valor: \n");
     scanf("%d", &num3);
+
+    media=((num1 + num2 + num3) /3);
 
     if(num1 < num2){
         if(num1 < num3)
@@ -44,5 +46,6 @@ int main (){
 
     printf(" Primeiro resultado Menor: %d \n", menor);
     printf(" Segundo resultado Maior: %d \n", maior);
+    printf( " Terceiro resultado Media: %d \n", media);
 
 }

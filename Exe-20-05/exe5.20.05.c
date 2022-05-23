@@ -15,28 +15,22 @@ Entre 13 e 65   Bilhete Normal
 
 main (){
     setlocale(LC_ALL, "Portuguese");
-    float idade, bilhete, soma;
+    float idade, bilhete;
 
     printf(" Quantos anos a pessoa têm?\n");
     scanf(" %f", &idade);
-    printf(" Quantos  bilhetes vai querer: \n");
-    scanf(" %f", &bilhete);
 
-    soma=idade / (bilhete * bilhete);
 
     if(idade <6){
-        printf(" Bilhete: %f Isento de Pagamento \n", soma);
+        printf(" Bilhete: %.2f Isento de Pagamento \n", idade);
     }
-    else if(soma >= 6 && soma <12){
-        printf(" Bilhete: %.2f Bilhete de Criança \n", soma);
+    else if(idade >= 6 && idade <12){
+        printf(" Bilhete: %.2f Bilhete de Criança \n", idade);
     }
-    else if(soma >=13 && soma <65){
-        printf(" Bilhete: %.2f Bilhete Normal \n", soma);
+    else if(idade >=13 && idade <65){
+        printf(" Bilhete: %.2f Bilhete Normal \n", idade);
     }
-    else if(soma >=65){
-        printf(" Bilhete: %.2f Bilhete de 3ª idade \n", soma);
+    else {
+        printf(" Bilhete: %.2f Bilhete de 3ª idade \n", idade);
     }
-
-
-
 }

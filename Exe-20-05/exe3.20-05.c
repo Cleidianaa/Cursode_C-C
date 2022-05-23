@@ -31,7 +31,5 @@ main (){
         else
         printf(" Escaleno: Todos diferentes!");
     }
-        else
-        printf(" Os três lados NÂO são um triangulo! \n");
 
 }
