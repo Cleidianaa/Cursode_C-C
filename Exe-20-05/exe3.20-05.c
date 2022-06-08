@@ -26,9 +26,10 @@ main (){
         if(valor1 == valor2 && valor1 == valor3)
             printf(" Equilatero: Lados todos iguais\n");
 
-        else if( valor1 == valor2 || valor1 == valor3 || valor2 == valor3)
+        else if( valor1 == valor2 || valor1 == valor3 || valor2 == valor3){
         printf(" Isósceles:  Dois iguais!\n ");
-        else
+       }
+       else{
         printf(" Escaleno: Todos diferentes!");
     }
 

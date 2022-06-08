@@ -10,9 +10,9 @@ main(){
     setlocale (LC_ALL,"Portuguese");
     int N1, N2;
     printf(" Por favor digite um número:\n");
-    scanf("i", N1);
+    scanf("i", &N1);
     printf(" Por favor digite outro número:\n");
-    scanf("i", N2);
+    scanf("i", &N2);
 
     if(N1==N2){
         printf("Valores são iguais:\n");
