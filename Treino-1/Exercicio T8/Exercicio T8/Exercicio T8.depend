@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1655208431 source:c:\users\keysantos\documents\angela\projeto c\04\exercicio t8\main.c
-	<stdio.h>
-	<stdlib.h>
-	<locale.h>
-	<time.h>
-
