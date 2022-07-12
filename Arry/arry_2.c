@@ -24,7 +24,7 @@ main(){
        }
 
     }
-    if(existe== array[num]){
+    if(existe== 0){
 
         printf("O Número não existe no  array.");
     }
